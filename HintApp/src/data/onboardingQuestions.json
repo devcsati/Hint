@@ -1,0 +1,84 @@
+[
+  {
+    "id": "relationship_stage",
+    "section": "relationship",
+    "question": "How long have you been in your current relationship?",
+    "type": "single",
+    "options": [
+      "Less than 6 months",
+      "6–12 months",
+      "1–3 years",
+      "3–5 years",
+      "More than 5 years"
+    ],
+    "required": true
+  },
+  {
+    "id": "partner_personality",
+    "section": "relationship",
+    "question": "How would you describe your partner's personality?",
+    "type": "multi",
+    "options": [
+      "Creative",
+      "Organized",
+      "Adventurous",
+      "Sentimental",
+      "Playful",
+      "Practical"
+    ],
+    "required": true,
+    "maxSelections": 3
+  },
+  {
+    "id": "love_language_primary",
+    "section": "love_language",
+    "question": "What is your partner's primary love language?",
+    "type": "single",
+    "options": [
+      "Words of Affirmation",
+      "Quality Time",
+      "Acts of Service",
+      "Physical Touch",
+      "Gift Giving"
+    ],
+    "required": true
+  },
+  {
+    "id": "gesture_style",
+    "section": "love_language",
+    "question": "Which types of gestures does your partner enjoy the most?",
+    "type": "multi",
+    "options": [
+      "Romantic messages",
+      "Small surprises",
+      "Planning activities",
+      "Compliments",
+      "Physical affection",
+      "Thoughtful actions"
+    ],
+    "required": true,
+    "maxSelections": 4
+  },
+  {
+    "id": "monthly_budget",
+    "section": "budget",
+    "question": "What is your ideal monthly budget for romantic gestures?",
+    "type": "single",
+    "options": [
+      "0–10€",
+      "10–20€",
+      "20–40€",
+      "40–70€",
+      "70€+"
+    ],
+    "required": true
+  },
+  {
+    "id": "custom_notes",
+    "section": "additional",
+    "question": "Is there anything special we should know about your partner?",
+    "type": "text",
+    "placeholder": "Optional: allergies, dislikes, recurring issues, etc.",
+    "required": false
+  }
+]
